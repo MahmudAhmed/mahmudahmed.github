@@ -127,7 +127,6 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                {/* <i className="ion-social-codepen"></i> */}
                                 <FontAwesomeIcon className="social-icons" size={"xs"} icon={faFile} />
                               </span>
                             </a>
