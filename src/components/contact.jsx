@@ -123,7 +123,7 @@ class Contact extends React.Component {
                         <ul>
                           <li>
                             <a
-                              title="View Resume" target="_blank" href="./resume.pdf"
+                              title="View Resume" target="_blank" href="https://github.com/MahmudAhmed/mahmudahmed.github.io/blob/main/resume.pdf"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
