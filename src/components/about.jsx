@@ -57,7 +57,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "I'm a web developer (...as well as a MMA fanactic) with experience in building applications in JavaScript, React/React-Native, MERN (MongoDB, Express, React, Node) and Ruby on Rails. I'm drawn to programming because it is a dynamic and intellectually challenging field that can transform and improve the lives of people around the world. Software engineering is a never-ending puzzle that I am passionately engaged in solving."
+            "I'm a web developer with experience in building applications in JavaScript, React/React-Native, MERN (MongoDB, Express, React, Node) and Ruby on Rails. I'm drawn to programming because it is a dynamic and intellectually challenging field that can transform and improve the lives of people around the world. Software engineering is a never-ending puzzle that I am passionately engaged in solving."
         },
         {
           id: "second-p-about",
@@ -67,7 +67,7 @@ class About extends React.Component {
         {
           id: "third-p-about",
           content:
-            "As it is with the ever-changing industry we are in, my skill sets and familiarity with technologies are also changing and adapting. Here are a few technologies I have under my belt, so far..."
+            "As it is with the ever-changing industry we are in, my skill sets and familiarity with technologies are also changing and adapting."
         }
       ]
     };
