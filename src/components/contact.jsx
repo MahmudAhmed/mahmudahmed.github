@@ -128,7 +128,7 @@ class Contact extends React.Component {
                             >
                               <span className="ico-circle">
                                 <FontAwesomeIcon className="social-icons" size={"xs"} icon={faFile} />
-                              </span>
+                              </span> 
                             </a>
                           </li>
                           <li>
