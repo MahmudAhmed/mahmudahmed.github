@@ -1,5 +1,4 @@
 import React from "react";
-import myImage from "../img/myImage.png";
 
 class About extends React.Component {
   constructor() {
@@ -9,14 +8,14 @@ class About extends React.Component {
         {
           id: "React_skill",
           content: "React",
-          porcentage: "80%",
-          value: "80"
+          porcentage: "70%",
+          value: "70"
         },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          porcentage: "80%",
+          value: "80"
         },
         {
           id: "Rails_skill",
@@ -27,18 +26,18 @@ class About extends React.Component {
         {
           id: "ReactNative_skill",
           content: "React-Native",
-          porcentage: "70%",
-          value: "70"
+          porcentage: "65%",
+          value: "65"
         },
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "85%", value: "85" },
-        { id: "JQuery", content: "JQuery", porcentage: "75%", value: "75" },
-        { id: "SQL", content: "SQL", porcentage: "75%", value: "75" },
+        { id: "HTML5_skill", content: "HTML5/CSS3", porcentage: "85%", value: "85" },
+        // { id: "CSS3_skill", content: "CSS3", porcentage: "85%", value: "85" },
+        { id: "JQuery", content: "JQuery", porcentage: "70%", value: "70" },
+        { id: "SQL", content: "SQL", porcentage: "70%", value: "70" },
         {
           id: "NoSQL_skill",
           content: "NoSQL",
-          porcentage: "70%",
-          value: "70"
+          porcentage: "65%",
+          value: "65"
         },
         {
           id: "Wordpress_skill",
@@ -46,28 +45,23 @@ class About extends React.Component {
           porcentage: "80%",
           value: "80"
         },
-        {
-          id: "Marketing_skill",
-          content: "Marketing",
-          porcentage: "90%",
-          value: "90"
-        }
+        // {
+        //   id: "Marketing_skill",
+        //   content: "Marketing",
+        //   porcentage: "90%",
+        //   value: "90"
+        // }
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "I'm a web developer with experience in building applications in JavaScript, React/React-Native, MERN (MongoDB, Express, React, Node) and Ruby on Rails. I'm drawn to programming because it is a dynamic and intellectually challenging field that can transform and improve the lives of people around the world. Software engineering is a never-ending puzzle that I am passionately engaged in solving."
+            "I'm a Software Engineer with experience in building applications with JavaScript, React, React-Native, Node and Ruby on Rails. I'm drawn to programming because it is a dynamic field (and intellectually challenging) that can transform and improve the lives of people around the world. Software Engineering is a never-ending puzzle that I am passionately engaged in solving."
         },
         {
           id: "second-p-about",
           content:
-            "Coming from a Marketing and an Entrepreneurial background, I had to be self-taught in a lot of areas. I had to solve unique problems (with no “manual” on how to solve them) with approaches I had to pick up on the fly. Giving this “problem solving” background I feel it has made my transition into software engineering smoother than the average joe."
-        },
-        {
-          id: "third-p-about",
-          content:
-            "As it is with the ever-changing industry we are in, my skill sets and familiarity with technologies are also changing and adapting."
+            "Coming from a Marketing and an Entrepreneurial background, I had to be self-taught in a lot of areas. I had to solve unique problems (with no “manual” on how to solve them) with approaches I had to pick up on the fly. Having this problem solving background, I feel, has made my transition into software engineering smoother than the average joe."
         }
       ]
     };
