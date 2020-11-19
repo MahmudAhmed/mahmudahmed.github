@@ -56,7 +56,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "I'm a Software Engineer with experience in building applications with JavaScript, React, React-Native, Node and Ruby on Rails. I'm drawn to programming because not only is it intellectually challanging, but also it is a dynamic field that can transform and improve the lives of people around the world. Software Engineering is a never-ending puzzle that I am passionately engaged in solving."
+            "I'm a Software Engineer with experience in building applications with JavaScript, React, React-Native, Node, and Ruby on Rails. I'm drawn to programming because not only is it intellectually challenging, but also it is a dynamic field that can transform and improve the lives of people around the world. Software Engineering is a never-ending puzzle that I am passionately engaged in solving."
         },
         {
           id: "second-p-about",
