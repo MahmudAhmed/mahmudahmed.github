@@ -7,6 +7,10 @@ import stock2 from "../img/image3.png";
 import stock3 from "../img/image4.png";
 import stock4 from "../img/image5.png";
 import stock5 from "../img/image6.png";
+import stock6 from "../img/image7.png";
+import stock7 from "../img/image8.png";
+import stock8 from "../img/image9.png";
+
 
 class Portfolio extends React.Component {
   render() {
@@ -25,161 +29,36 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
-              <div className="work-box">
-                <a target="_blank" href="https://halal-table.herokuapp.com/"  title="View Site">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Halal Tables</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Rails, PostgreSQL, JavaScript, React, Redux, AWS, REST 
-                          </span>
+            { PROJECTS.map( project => {
+              return (
+                <div className="col-md-4">
+                  <div className="work-box">
+                    <a target="_blank" href={project.href} title="View Site">
+                      <div className="work-img">
+                        <img src={project.imgSrc} alt="" className="img-fluid" />
+                      </div>
+                      <div className="work-content">
+                        <div className="row">
+                          <div className="col-sm-8">
+                            <h2 className="w-title">{project.title}</h2>
+                            <div className="w-more">
+                              <span className="w-ctegory">
+                                {project.category}
+                              </span>
+                            </div>
+                          </div>
+                          <div className="col-sm-4">
+                            <div className="w-like">
+                              <span className="ion-ios-plus-outline"></span>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
+                    </a>
                   </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a target="_blank" href="https://crime-watch.herokuapp.com/" title="View Site">
-                  <div className="work-img">
-                    <img src={stock1} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Crime Watch</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            MongoDB, ExpressJS, ReactJS, NodeJS, Google Maps API
-                          </span>{" "}
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a target="_blank" href="https://mahmudahmed.github.io/Bull-E-Season/" title="View Site">
-                  <div className="work-img">
-                    <img src={stock2} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">BULL-E Season</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            HTML5, CSS3, Vanilla JavaScript, DOM
-                          </span>
-                          {/*} / <span className="w-date">18 Sep. 2018</span>*/}
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a target="_blank" href="https://mahmudahmed.com/TriviaUniverse/" title="View Site">
-                  <div className="work-img">
-                    <img src={stock3} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Trivia University</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            React, HTML, CSS, APIs
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a target="_blank" href="http://mahmudahmed.com/Data-Visualization-Boston-Housing-Market/" title="View Site">
-                  <div className="work-img">
-                    <img src={stock4} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Data Visualization</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">JavaScript, HTML/CSS, Canvas, D3</span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a target="_blank" href="https://expo.io/@mahmudahmed/BaitnHook" title="View Site">
-                  <div className="work-img">
-                    <img src={stock5} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Bait & Hook Mobile App</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            React-Native, Firebase, EXPO
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -188,3 +67,62 @@ class Portfolio extends React.Component {
 }
 
 export default Portfolio;
+
+
+const PROJECTS = [
+  {
+
+    href: "https://halal-table.herokuapp.com/",
+    imgSrc: stock,
+    title: "Halal Tables",
+    category: "Rails, PostgreSQL, JavaScript, React, Redux, AWS, REST"
+  },
+  {
+    href: "https://crime-watch.herokuapp.com/",
+    imgSrc: stock1,
+    title: "Crime Watch",
+    category: "MongoDB, ExpressJS, ReactJS, NodeJS, Google Maps API"
+  },
+  {
+    href: "https://mahmudahmed.github.io/Bull-E-Season/",
+    imgSrc: stock2,
+    title: "BULL-E Season",
+    category: "HTML5, CSS3, Vanilla JavaScript, DOM"
+  },
+  {
+    href: "https://mahmudahmed.com/TriviaUniverse/",
+    imgSrc: stock3,
+    title: "Trivia University",
+    category: "React, HTML, CSS, APIs"
+  },
+  {
+    href: "http://mahmudahmed.com/Data-Visualization-Boston-Housing-Market/",
+    imgSrc: stock4,
+    title: "Data Visualization",
+    category: "JavaScript, HTML/CSS, Canvas, D3"
+  },
+  {
+    href: "https://expo.io/@mahmudahmed/BaitnHook",
+    imgSrc: stock5,
+    title: "Bait & Hook Mobile App",
+    category: "React-Native, Firebase, EXPO"
+  },
+  {
+    href: "https://expo.io/@mahmudahmed/projects/react-firebase-app",
+    imgSrc: stock8,
+    title: "Instagram App lone",
+    category: "React-Native, Firebase, EXPO"
+  },
+  {
+    href: "https://mahmudahmed.com/todo",
+    imgSrc: stock6,
+    title: "QuickList",
+    category: "React, HTML/CSS, Firebase"
+  },
+  {
+    href: "https://github.com/MahmudAhmed/CMSTextEditor",
+    imgSrc: stock7,
+    title: "CMSTextEditor",
+    category: "Ruby on Rails, PostgreSQL, HTML/CSS"
+  }
+]
