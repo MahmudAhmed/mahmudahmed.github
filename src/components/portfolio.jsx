@@ -110,7 +110,7 @@ const PROJECTS = [
   {
     href: "https://expo.io/@mahmudahmed/projects/react-firebase-app",
     imgSrc: stock8,
-    title: "Instagram App lone",
+    title: "Instagram App clone",
     category: "React-Native, Firebase, EXPO"
   },
   {
