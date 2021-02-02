@@ -8,8 +8,8 @@ class About extends React.Component {
         {
           id: "React_skill",
           content: "React",
-          porcentage: "70%",
-          value: "70"
+          porcentage: "80%",
+          value: "80"
         },
         {
           id: "JavaScript_skill",
