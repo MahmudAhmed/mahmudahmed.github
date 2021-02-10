@@ -78,10 +78,10 @@ const PROJECTS = [
     category: "Rails, PostgreSQL, JavaScript, React, Redux, AWS, REST"
   },
   {
-    href: "https://crime-watch.herokuapp.com/",
-    imgSrc: stock1,
-    title: "Crime Watch",
-    category: "MongoDB, ExpressJS, ReactJS, NodeJS, Google Maps API"
+    href: "https://mahmudahmed.com/todo",
+    imgSrc: stock6,
+    title: "QuickList",
+    category: "React, HTML/CSS, Firebase"
   },
   {
     href: "https://mahmudahmed.github.io/Bull-E-Season/",
@@ -90,10 +90,10 @@ const PROJECTS = [
     category: "HTML5, CSS3, Vanilla JavaScript, DOM"
   },
   {
-    href: "https://mahmudahmed.com/TriviaUniverse/",
-    imgSrc: stock3,
-    title: "Trivia University",
-    category: "React, HTML, CSS, APIs"
+    href: "https://crime-watch.herokuapp.com/",
+    imgSrc: stock1,
+    title: "Crime Watch",
+    category: "MongoDB, ExpressJS, ReactJS, NodeJS, Google Maps API"
   },
   {
     href: "http://mahmudahmed.com/Data-Visualization-Boston-Housing-Market/",
@@ -108,16 +108,16 @@ const PROJECTS = [
     category: "React-Native, Firebase, EXPO"
   },
   {
+    href: "https://mahmudahmed.com/TriviaUniverse/",
+    imgSrc: stock3,
+    title: "Trivia University",
+    category: "React, HTML, CSS, APIs"
+  },
+  {
     href: "https://expo.io/@mahmudahmed/projects/react-firebase-app",
     imgSrc: stock8,
     title: "Instagram App clone",
     category: "React-Native, Firebase, EXPO"
-  },
-  {
-    href: "https://mahmudahmed.com/todo",
-    imgSrc: stock6,
-    title: "QuickList",
-    category: "React, HTML/CSS, Firebase"
   },
   {
     href: "https://github.com/MahmudAhmed/CMSTextEditor",
