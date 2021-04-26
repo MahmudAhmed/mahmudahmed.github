@@ -104,7 +104,7 @@ const PROJECTS = [
   {
     href: "https://expo.io/@mahmudahmed/BaitnHook",
     imgSrc: stock5,
-    title: "Bait & Hook Mobile App",
+    title: "B & H Mobile App",
     category: "React-Native, Firebase, EXPO"
   },
   {
